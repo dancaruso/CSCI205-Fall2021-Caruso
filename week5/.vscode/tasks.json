@@ -6,9 +6,7 @@
             "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 "-g",
-                "*.cpp",        // ADD THIS
-                "-Wall",        // ADD THIS
-                "-pedantic",    // ADD THIS
+                "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
